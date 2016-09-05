@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>svetotehnika</name>
+	<creationDate>23 February 2014</creationDate>
+	<author>Angie Radtke</author>
+	<authorEmail>webmasteraka@mail.ru</authorEmail>
+	<copyright>Copyright (C) 2014 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>TPL_SVETOTEHNIKA_XML_DESCRIPTION</description>
+
+
+	<positions>
+		<position>menu</position>
+		<position>search</position>
+		<position>contact</position>
+		<position>ikonki</position>
+		
+	</positions>
+
+</extension>

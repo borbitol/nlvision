@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php 
+$document = & JFactory::getDocument();
+$cur_lang = $document->language;
+?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="ru">
+<head>
+<jdoc:include type="head" />
+<link href="templates/svetotehnika/css/styles.css?<?php echo rand(1,10000); ?>" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="templates/svetotehnika/js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="templates/svetotehnika/js/popup.menu.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#upm').popUpMenu({
+		direction: 'bottom'
+	});
+
+})
+</script>
+</head>
+<body>
+<div id="wrap">
+	<div class="wrap-header">
+    	<div class="main-pic"></div>
+        <div class="header">
+        	<div class="logo"><a href="<?php echo $this->baseurl ?>">
+			<?php if ($cur_lang == 'en-gb') { ?>
+				<img src="templates/svetotehnika/images/logo_en.png" alt="" />
+				<?php } elseif ($cur_lang == 'lt-lt') { ?>
+				<img src="templates/svetotehnika/images/logo_lt.png" alt="" />
+			<?php } else { ?>
+				<img src="templates/svetotehnika/images/logo.png" alt="" />
+			<?php } ?>
+			</a>
+			</div>
+			<jdoc:include type="modules" name="menu" />
+            <?php if ($cur_lang == 'en-gb') { ?>
+            <div class="slogan">
+            	<div class="title">Reliability under all conditions! </div>
+                 Equipment for adapting c helicopters using night vision goggles (NVG)
+            </div>
+			<?php } else { ?>
+				<div class="slogan">
+            	<div class="title">Надежность при любых условиях!</div>
+                Оборудования для адаптации вертолетов c использованием очков ночного видения (ОНВ)
+            </div>
+			<?php } ?>
+        </div>
+    </div>
+	
+	
+	<?php if ($cur_lang == 'en-gb') { ?>
+	
+    <div class="cont-box">
+    	<div class="top-block">
+        	<div class="top-block-in">
+            	<div class="block">
+                	<span class="for-img"><a href="en/adaptation-of-all-cab-and-external-light-technical-equipment"><img src="templates/svetotehnika/images/img1.jpg" alt="" /></a></span>
+                    <span class="for-text">
+							<a href="en/adaptation-of-all-cab-and-external-light-technical-equipment">
+							Adaptation of all-cab and external light technical equipment;</a>
+                    </span>
+                <div class="clear"></div>
+                </div>
+                <div class="block">
+                	<span class="for-img"><a href="en/adaptation-of-external-light-technical-equipment"><img src="templates/svetotehnika/images/img2.jpg" alt="" /></a></span>
+                    <span class="for-text">
+                    	<a href="en/adaptation-of-external-light-technical-equipment">Adaptation of external light technical equipment;</a>
+                    </span>
+                <div class="clear"></div>
+                </div>
+                <div class="block">
+                	<span class="for-img"><a href="en/applying-of-special-coatings-and-installation-of-protective-visors"><img src="templates/svetotehnika/images/img3.jpg" alt="" /></a></span>
+                    <span class="for-text">
+                    	<a href="en/applying-of-special-coatings-and-installation-of-protective-visors">Applying special coatings and installation of protective visors</a>
+                    </span>
+                <div class="clear"></div>
+                </div>
+            <div class="clear"></div>
+            </div>
+        </div>
+
+        	<jdoc:include type="message" />
+			<jdoc:include type="component" />
+			<jdoc:include type="modules" name="contact" />
+       
+    <div class="clear"></div>
+    </div>
+	
+	<?php } else { ?>
+	
+		<div class="cont-box">
+			<div class="top-block">
+				<div class="top-block-in">
+					<div class="block">
+						<span class="for-img"><a href="adaptatsiya-vsego-vnutrikabinnogo-i-vneshnego-svetotekhnicheskogo-oborudovaniya"><img src="templates/svetotehnika/images/img1.jpg" alt="" /></a></span>
+						<span class="for-text">
+								<a href="adaptatsiya-vsego-vnutrikabinnogo-i-vneshnego-svetotekhnicheskogo-oborudovaniya">Адаптация всего внутрикабинного и внешнего светотехнического оборудования;</a>
+						</span>
+					<div class="clear"></div>
+					</div>
+					<div class="block">
+						<span class="for-img"><a href="adaptatsiya-vneshnego-svetotekhnicheskogo-oborudovaniya"><img src="templates/svetotehnika/images/img2.jpg" alt="" /></a></span>
+						<span class="for-text">
+							<a href="adaptatsiya-vneshnego-svetotekhnicheskogo-oborudovaniya">Адаптация внешнего светотехнического оборудования;</a>
+						</span>
+					<div class="clear"></div>
+					</div>
+					<div class="block">
+						<span class="for-img"><a href="nanesenie-spetsialnykh-pokrytij-i-ustanovka-zashchitnykh-kozyrkov"><img src="templates/svetotehnika/images/img3.jpg" alt="" /></a></span>
+						<span class="for-text">
+							<a href="nanesenie-spetsialnykh-pokrytij-i-ustanovka-zashchitnykh-kozyrkov">Нанесение специальных покрытий и установка защитных козырьков</a>
+						</span>
+					<div class="clear"></div>
+					</div>
+				<div class="clear"></div>
+				</div>
+			</div>
+
+				<jdoc:include type="message" />
+				<jdoc:include type="component" />
+				<jdoc:include type="modules" name="contact" />
+		   
+		<div class="clear"></div>
+		</div>
+	
+	<?php } ?>
+	
+<div class="f-blank"></div>
+</div>
+<div id="footer">
+	<div class="search-wrap">
+    	<div class="search-wrap-in">
+			<?php if ($cur_lang == 'en-gb') { ?>
+				<div class="search-title">Search on site</div>
+			<?php } else { ?>
+				<div class="search-title">Поиск по сайту</div>
+			<?php } ?>
+			<jdoc:include type="modules" name="search" />
+  
+        <div class="clear"></div>
+        </div>
+    </div>
+    <div class="partners">
+    	<jdoc:include type="modules" name="ikonki" />
+    </div>
+	<?php if ($cur_lang == 'en-gb') { ?>
+		<div class="copy">Copyright &copy; 2014 Svetotehnika</div>
+	<?php } else { ?>
+		<div class="copy">Copyright &copy; 2014 Светотехника</div>
+	<?php } ?>
+</div>
+</body>
+</html>
