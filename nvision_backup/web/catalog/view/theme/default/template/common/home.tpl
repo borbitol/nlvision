@@ -44,7 +44,7 @@
 
                                                         <img src="catalog/view/theme/default/stylesheet/img/nvision.jpg" alt="Nvision" height="418" class="map" usemap="#m_map" width="768">
                                                         <!-- Правая приборная доска 65 -->
-                                                        <div class='map-btn-container' id="Area3Cat" data-content="46" style="right: 108px; top: 308px;">
+                                                        <div class='map-btn-container' id="Area3Cat" data-content="46" style="right: 108px; top: 258px;">
                                                             <div class='btn-left'></div>
                                                             <div class="map-cat-name" >
                                                                 <?php echo $all_cab_categories[65]['name']; ?><br/>
@@ -52,7 +52,7 @@
                                                             <div class='btn-right'></div>
                                                         </div>
                                                         <!-- Левая приборная доска 64 -->
-                                                        <div class='map-btn-container' id="Area2Cat" data-content="47" style="left: 172px; top: 308px;">
+                                                        <div class='map-btn-container' id="Area2Cat" data-content="47" style="left: 172px; top: 258px;">
                                                             <div class='btn-left'></div>
                                                             <div class="map-cat-name" >
                                                                 <?php echo $all_cab_categories[64]['name']; ?><br/>

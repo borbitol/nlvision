@@ -7,9 +7,9 @@
             <h4 class="footer_item_title"><?php echo $this->language->get('text_contacts'); ?></h4>
             <div class="foonter_item_content">
               <p><?php echo $this->language->get('text_call_us'); ?></p>
-              <span>(495) 943-93-28</span>
+              <span>+370 626 95055</span>
               <p><?php echo $this->language->get('text_or_by_email'); ?></p>
-              <a href="mailto:nv@svetotechnika-nv.ru" class="mail">nv@svetotechnika-nv.ru</a>
+              <a href="mailto:vladimir.t@nvision.lt " class="mail">vladimir.t@nvision.lt</a>
             </div>
           </div>
         </div>
